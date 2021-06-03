@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="69px" viewBox="0 0 44 69" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icon-security-why_nokia</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 69.2039811 44.2215094 69.2039811 44.2215094 0.000396226415 0 0.000396226415"></polygon>
+    </defs>
+    <g id="MASTER-B2B-Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Security_02_Infographic" transform="translate(-998.000000, -400.000000)">
+            <g id="Infographic" transform="translate(90.000000, 340.000000)">
+                <g id="icon-security-why_nokia" transform="translate(908.000000, 60.000000)">
+                    <path d="M7.5379434,33.089 C6.76530189,32.9965472 5.96096226,33.2448491 5.3679434,33.8378679 C4.34567925,34.8614528 4.34567925,36.5229623 5.3679434,37.5452264 L7.5379434,39.7139057" id="Stroke-1" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"></path>
+                    <path d="M7.5379434,23.0091321 L6.80756604,22.2800755 C5.78662264,21.2551698 4.12511321,21.2551698 3.10284906,22.2800755" id="Stroke-3" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"></path>
+                    <path d="M3.10232075,22.2804717 C2.07873585,23.3014151 2.07873585,24.9616038 3.10232075,25.9878302 L7.53741509,30.4229245" id="Stroke-5" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"></path>
+                    <path d="M14.6280189,49.8472642 L19.6323585,54.850283" id="Stroke-7" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"></path>
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-10"></g>
+                    <polygon id="Stroke-9" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" mask="url(#mask-2)" points="15.8913208 67.8832264 42.899434 67.8832264 42.899434 54.8500189 15.8913208 54.8500189"></polygon>
+                    <path d="M33.5763585,26.4800755 L33.5763585,4.3270566 C33.5763585,2.6734717 32.109,1.32101887 30.3114528,1.32101887 L10.8039057,1.32101887 C9.00635849,1.32101887 7.53767925,2.6734717 7.53767925,4.3270566 L7.53767925,46.8434717 C7.53767925,48.4957358 9.00635849,49.8468679 10.8039057,49.8468679 L28.8586226,49.8468679" id="Stroke-11" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" mask="url(#mask-2)"></path>
+                    <path d="M30.4498679,54.8626981 C29.3602453,52.8485472 28.7170377,50.3826981 28.7170377,47.7213774 C28.7170377,43.0987358 30.6506226,39.0730755 33.5100566,36.9611887 L32.1034528,32.7347736 L31.106283,32.7677925 C28.5968491,32.8087358 26.5259057,30.8051509 26.4849623,28.2930755 L26.4598679,26.7768491 C26.4598679,26.7134528 26.4664717,26.6513774 26.4691132,26.5853396 L33.5760943,26.4796792 L35.575717,26.4493019 L35.6074151,26.5179811 L39.6396792,35.6417547 L39.6396792,54.8494906" id="Stroke-12" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" mask="url(#mask-2)"></path>
+                    <path d="M7.5379434,6.699 L33.5766226,6.699" id="Stroke-13" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" mask="url(#mask-2)"></path>
+                    <path d="M7.5379434,43.7877736 L29.2049245,43.7877736" id="Stroke-14" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" mask="url(#mask-2)"></path>
+                    <path d="M7.5379434,13.7845849 L5.79454717,11.9738302 C4.77228302,10.9502453 3.10945283,10.9502453 2.08850943,11.9738302 C1.06492453,12.9960943 1.06492453,14.6576038 2.08850943,15.6811887 L7.5379434,21.1306226" id="Stroke-15" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,416 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+}
+
+.main-pik{
+    width: 100%;
+    
+}
+@media (min-width:300px) and (max-width:740px) {
+    .main-pik {
+       content: url(../asset/hacker-port.jpg);
+    }
+  }
+.pik-text1{
+    color: white;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    line-height: 26px;
+}
+@media (min-width:300px) and (max-width:740px) {
+    .pik-text1 {
+        color: white;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        line-height: 22px;
+    }
+  }
+
+.pik-text2{
+    color: white;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 75px;
+    line-height: 79px;
+}
+
+@media (min-width:300px) and (max-width:700px) {
+    .pik-text2 {
+        color: white;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        line-height: 44px;
+    }
+  }
+.pik-text3{
+    color: white;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    line-height: 27px;
+    
+}
+@media (min-width:300px) and (max-width:700px) {
+    .pik-text3 {
+        color: white;
+        font-weight: 400;
+        font-family: system-ui;
+        font-size: 14px;
+        /* margin-top: -19px; */
+        line-height: 20px;
+    }
+  }
+.data1{
+    font-weight: 700;
+    font-family: monospace;
+    color: black;
+}
+.data2{
+    font-weight: 700;
+   color: black;
+   font-family: system-ui;
+   margin-top: 1px;
+}
+.data3{
+    font-weight: 500;
+    color: black;
+    font-size: larger;
+}
+.card-blue{
+    background: #000033;
+    max-width: 90%;
+    height: 220px;
+}
+.card-icon{
+    color: white;
+    font-size: 70px;
+}
+.sec-banner{
+    width: 100%;
+    margin-top: 6%;
+}
+
+@media (min-width:300px) and (max-width:740px) {
+    .look-pik{
+        
+      content: url(../asset/looknokiaPort.jpg);
+      width: 100%;
+    }
+  }
+
+.banner-data1 {
+    color: white;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 17px;
+    font-size: 14px;
+}
+@media (min-width:300px) and (max-width:740px) {
+    .banner-data1 {
+        
+        color: white;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 13px;
+        font-size: 11px;
+        
+    }
+  }
+  @media (min-width:300px) and (max-width:740px) {
+    .phone-pik{
+        
+      content: url(../asset/phonePortrait.png);
+      width: 100%;
+    }
+  }
+
+
+.banner-data2{
+    color: white;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -10px;
+    font-size: 32px;
+    line-height: 40px;
+}
+@media (min-width:300px) and (max-width:740px) {
+    .banner-data2 {
+        
+        color: white;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 28px;
+        line-height: 36px;
+    }
+  }
+.banner-data3{
+    
+        color: white;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 19px;
+        /* margin-top: -20px; */
+        line-height: 27px;
+        margin-top: -10px;
+    }
+    @media (min-width:300px) and (max-width:740px) {
+        .banner-data3 {
+           
+            color: white;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: -17px;
+      
+        
+        }
+      }
+    .banner-data4{
+        color: white;
+        font-weight: 480;
+        font-family: system-ui;
+        margin-top: 48px;
+    }
+    @media (min-width:300px) and (max-width:740px) {
+        .banner-data4 {
+            
+            color: white;
+            font-weight: 480;
+            font-family: system-ui;
+            font-size: xx-small;
+            margin-top: 48px;
+        }
+      }
+    .banner-button{
+        background-color: #00c9ff;
+        color: white;
+        font-weight: 700;
+        font-size: 15px;
+        
+    }
+    .banner-button:hover{background-color: #00a0cc;}
+
+    @media (min-width:300px) and (max-width:740px) {
+        .banner-button {
+            background-color: #00c9ff;
+            color: white;
+            font-weight: 700;
+            font-size: 15px;
+        }
+      }
+    .banner-data5{
+        color: white;
+        font-weight: 580;
+        font-family: system-ui;
+        margin-top: 8px;
+    }
+    .line {
+        width: 183px;
+        height: 2px;
+        background: #fff;
+        margin-top: -16px;
+        top: 50%;
+    }
+    #line_r{
+        -webkit-animation: line_r_animation 3s infinite;
+        animation: line_r_animation 10s infinite;
+      }
+
+
+       @keyframes line_r_animation {
+        /* 0%   {left: calc(2% + 50px); width: 0px;}
+        35%   {left: calc(2% + 0px); width: 50px;}
+        70%   {left: calc(2% + 0px); width: 0px;} */
+        100%   {left: calc(2% + 0px); width: 0px;}
+    }
+
+
+/*     
+    @-webkit-keyframes line_r_animation {
+        0%   {right: calc(2% + 50px); width: 0px;}
+        35%   {right: calc(2% + 0px); width: 50px;}
+        70%   {right: calc(2% + 0px); width: 0px;}
+        100%   {right: calc(2% + 0px); width: 0px;}
+    }  */
+    
+    /* @keyframes line_r_animation {
+        0%   {right: calc(2% + 50px); width: 0px;}
+        35%   {right: calc(2% + 0px); width: 50px;}
+        70%   {right: calc(2% + 0px); width: 0px;}
+        100%   {right: calc(2% + 0px); width: 0px;}
+    }  */
+    .big-mobile{
+        width: 96%;
+    }
+    .nokia-study{
+        font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 17px;
+    font-size: 14px;
+    color: black;
+    }
+
+    @media (min-width:300px) and (max-width:740px) {
+        .nokia-study {
+            
+            color: white;
+            font-weight: 700;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 13px;
+            font-size: 11px;
+            
+        }
+      }
+    .nokia-study2{
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 28px;
+        line-height: 36px;
+        color:black;
+    }
+    .nokia-study3{
+        color: white;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 19px;
+        color: black;
+        font-style: italic;
+        line-height: 27px;
+        
+    }
+    .nokia-study4{
+        color: black;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 19px;
+        /* margin-top: -20px; */
+        line-height: 27px;
+        margin-top: -10px;
+    }
+    .line-two{
+        width: 183px;
+        height: 2px;
+        background:black;
+        margin-top: -16px;
+        top: 50%;
+    }
+    .read-me{
+        color: black;
+        font-weight: 580;
+        font-family: system-ui;
+        margin-top: 8px;
+    }
+    .slider-base{
+        width: 100%;
+    }
+    .slider-button{
+        background-color: white;
+        color: black;
+        font-weight: 700;
+        font-size: 15px;
+        
+    }
+    .slider-button:hover{background-color: #cccccc;}
+
+    
+
+
+
+    .text3{
+        color: black;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: Nokia,Arial,Helvetica,sans-serif;
+        margin-left: 17% !important;
+        
+    }
+
+
+    .phone-header{
+        color: black;
+    }
+    .radio-bttn{
+        margin-left: 87px;
+        margin-bottom: 20px;
+        
+    }
+    .radio-bttn-last{
+        margin-left: 87px;
+      
+        
+    }
+    .android{
+        margin-left: 27px;
+    }
+    .compare{
+        margin-left: 59px;
+        color: black;
+    }
+    .n34{
+        width: 320px;
+        padding-top: 55px;
+        padding-left: 70px;
+        margin-left: 40px;
+    }
+    .n24{
+        width: 320px;
+        padding-top: 55px;
+        padding-left: 160px;
+    }
+     
+    .n53{
+        
+        width: 320px;
+        padding-top: 55px;
+        padding-left: 160px;
+    }
+
+  .price{
+    color: black;
+    margin-left: 67px;
+  }
+  .contact-us{
+      width: 100%;
+     
+      background-color: #e6e6e6;
+      /* height: 50px; */
+  }
+  .contact-text{
+        color: black;
+        font-weight: 600;
+        font-family: monospace  ;
+  }
+  .final-text{
+      font-weight: 500;
+      color: black;
+  }
+  .final-box{
+  border: solid 2px black;
+    width: 100%;
+   
+  }
+  .final-drpdwn{
+
+    border:solid 3px black;
+    width: 89%;
+    height: 44px;
+  }
+  .last-box{
+    border-color:  black;
+    width: 100%;
+    
+  }
+  .sub-bttn{
+      background-color:rgb(18,65,145);
+      color: white;
+        font-size: 21px;
+        font-weight: 700;
+        
+    }

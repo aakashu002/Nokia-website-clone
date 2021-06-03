@@ -1,0 +1,2 @@
+/*! For license information please see elements-DisclaimerElement.a9369fe0fe9cf33b4a3d.app.js.LICENSE */
+(window.__LOADABLE_LOADED_CHUNKS__=window.__LOADABLE_LOADED_CHUNKS__||[]).push([[36],{342:function(e,a,l){l.r(a);var r=l(0),i=l(17);a.default=e=>{var{disclaimers:a,paragraphDisclaimers:l}=e;return(r.createElement("div",{className:"disclaimer_element"},a&&a.map((e,a)=>e&&r.createElement("div",{key:a,className:"disclaimer"},r.createElement(i.a,null,e))),l&&l.map((e,a)=>e&&r.createElement("div",{key:a,className:"disclaimer"},r.createElement(i.a,null,e)))))}}}]);

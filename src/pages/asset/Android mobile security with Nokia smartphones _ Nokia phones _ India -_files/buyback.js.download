@@ -1,0 +1,58 @@
+function _cashifyClick(e) {
+  e.preventDefault()
+  if (!_cashify.widget && CashifyWidget && widget) {
+    document._cashify.widget = widget
+    widget.init()
+  }
+  let productIds = new Map()
+  productIds.set('nokia-7', '23559')
+  productIds.set('nokia-6', '23586')
+  productIds.set('nokia-2-2019', '18096')
+  productIds.set('nokia-2', '23964')
+
+  const currentProduct = window.location.href
+    .split('/')
+    .pop()
+    .split('?')[0]
+  const productId = productIds.get(currentProduct) || ''
+
+  _cashify.widget.showPopup('', productId, '20', 'tag')
+  return false
+}
+
+function _onCashifyWidgetLoaded() {
+  var buyBackButtonElement = document.getElementById('buybackButton')
+  if (buyBackButtonElement) {
+    buyBackButtonElement.addEventListener('click', _cashifyClick)
+  }
+}
+
+function _onQuote(data) {
+  window.buybackCallback(data)
+}
+
+function _onPayment(data) {
+  if (window.onPaymentCallback && data && data.detail) window.onPaymentCallback(data.detail)
+}
+
+function _testBuyback() {
+  window.buybackCallback({
+    uid: '1234567890',
+    name: 'Pineapple uPhone 9s 64 GB (Factory Unlocked)',
+    quote: '45000',
+  })
+}
+
+var _cashifyIsAttached = false
+var _cashify = _cashify || {}
+_cashify.account = 'nokiawn.wn.cashify.in'
+_cashify.version = '11'
+_cashify.width = 770
+_cashify.height = 450
+_cashify.onLoad = _onCashifyWidgetLoaded
+_cashify.onQuote = _onQuote
+_cashify.onPayment = _onPayment
+document.addEventListener('_cashify_sell', _onQuote)
+document.addEventListener('_cashify_payment', _onPayment)
+document._cashify = _cashify
+window.buybackAttach = _onCashifyWidgetLoaded

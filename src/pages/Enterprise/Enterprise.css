@@ -1,0 +1,128 @@
+.text1{
+    color: #001135;
+    font-family: Nokia, Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 700;
+    font-style: normal;
+}
+.text2{
+    color: #001135;
+    font-family: Nokia, Arial, Helvetica, sans-serif;
+    font-size: 78px;
+    font-weight: 700;
+    line-height: 85px;
+}
+@media screen and (max-width: 700px) {
+    .text2 {
+        color: #001135;
+        font-family: Nokia, Arial, Helvetica, sans-serif;
+        font-size: 43px;
+        font-weight: 700;
+        line-height: 53px;
+    }
+  }
+  
+.text4{
+    color: #001135;
+    font-family: Nokia, Arial, Helvetica, sans-serif;
+    font-size: 19px;
+}
+
+@media screen and (max-width: 700px) {
+    .text4 {
+        color: #001135;
+        font-family: Nokia, Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+  }
+
+.text5{
+    color: #001135;
+    font-family: Nokia, Arial, Helvetica, sans-serif;
+}
+.text6{
+    color: #001135;
+    font-weight: 400;
+    font-family: Nokia, Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    line-height: 29px;
+ 
+}
+@media screen and (max-width: 700px) {
+    .text6 {
+        color: #001135;
+        font-family: Nokia, Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+  }
+.text7{
+    color: #001135;
+    font-weight: 700;
+    font-family: Nokia, Arial, Helvetica, sans-serif;
+    Font-size: 38px;
+    line-height: 42px;
+}
+.text8{
+    color: #001135;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 58px;
+    line-height: 63px;
+    font-weight: 700;
+}
+.text9{
+    color: #001135;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 29px;
+    line-height: 36px;
+    font-weight: 700;
+}
+@media screen and (max-width: 700px) {
+    .text7 {
+        color: #001135;
+        font-family: Nokia, Arial, Helvetica, sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 35px;
+    }
+  }
+.title1{
+    color: #001135;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 58px;
+    line-height: 63px;
+    font-weight: 700;
+}
+@media screen and (max-width: 700px) {
+    .title1 {
+    color: #001135;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    line-height: 35px;
+    font-weight: 700;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .last-banner{
+        content: url(../asset/lastport.jpg);
+    }
+  }
+.last-para{
+    color: #808080;
+    font-weight: 400;
+    font-family: Nokia, Arial, Helvetica, sans-serif;
+    Font-size: 14px;
+    line-height: 21px;
+}
+.last-para2{
+    color: #808080;
+    
+    font-family: Nokia, Arial, Helvetica, sans-serif;
+    Font-size: 14px;
+    line-height: 21px;
+    text-decoration: underline;
+}
